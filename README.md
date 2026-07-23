@@ -1,4 +1,9 @@
 # primo-explore-custom-no-results
+**Primo NDE UI Note:** We will not be updating this method to customize the No Results page for our NDE UI views for two reasons: 
+1. The OTB Newspapers & Magazines link now carries over the user's query and performs a search, which was not the case when we began using this customization; the ability to add that functionality was our primary reason for using this customization.
+2.  The other links we're using on this page can be inserted via the OTB page labels instead, so there's no need to maintain custom code in this area any longer.
+---
+
 Add custom text when no records retrieved. (Original code includes link to expand results to PCI, which has been removed for this version.)
 
 The OTB page in the Primo current UI for a no results search looks like this:
